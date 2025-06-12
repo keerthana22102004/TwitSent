@@ -17,7 +17,6 @@
 ### 🔧 2. Data Preprocessing
 
 - Removed irrelevant/unnecessary columns.
-- Parsed timestamps into year, month, day, and hour.
 - Scaled numerical features and handled missing values.
 - Encoded categorical variables.
 - Text preprocessing included:
@@ -40,8 +39,6 @@
 
 - Addressed imbalanced classes using:
   - **SMOTE**
-  - **RandomOverSampler**
-
 ---
 
 ### 🤖 5. Model Training & Evaluation
